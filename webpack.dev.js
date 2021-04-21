@@ -11,6 +11,7 @@ module.exports = merge(common, {
   ],
   devServer: {
     contentBase: './src',
-    publicPath: '/output'
+    publicPath: '/output',
+    port:process.env.PORT
   }
 });
